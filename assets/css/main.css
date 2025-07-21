@@ -3512,7 +3512,7 @@ input[type=color] {
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-section-title.fs-140 {
-    font-size: 115px;
+    font-size: 100px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -9536,9 +9536,10 @@ body.tp-magic-cursor #magic-cursor {
 }
 .tp-copyright-big-text {
   font-weight: 800;
-  font-size: 259px;
+  font-size: 160px;
   line-height: 1;
   letter-spacing: -16px;
+  color:red;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-copyright-big-text {
@@ -9547,8 +9548,9 @@ body.tp-magic-cursor #magic-cursor {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-copyright-big-text {
-    font-size: 194px;
+    font-size: 180px;
     letter-spacing: -10px;
+
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -18063,8 +18065,8 @@ body.tp-magic-cursor #magic-cursor {
   border-color: var(--tp-common-green-regular);
 }
 .dgm-service-radius {
-  margin-bottom: -1px;
-  border-radius: 20px 20px 0 0;
+  margin-bottom: -120px;
+  border-radius: 0px 0px 0 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .dgm-service-radius {
@@ -26006,6 +26008,7 @@ body.tp-magic-cursor #magic-cursor {
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .tp-video-area.video-inner-style {
     margin-bottom: 80px;
+    margin-top:80px;
   }
 }
 .tp-video-thumb {
