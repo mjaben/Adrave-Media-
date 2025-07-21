@@ -9539,7 +9539,7 @@ body.tp-magic-cursor #magic-cursor {
   font-size: 239px;
   line-height: 1;
   letter-spacing: -16px;
-  color:rgb(206, 56, 56);
+  color:rgb(231, 22, 22);
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-copyright-big-text {
@@ -9548,7 +9548,7 @@ body.tp-magic-cursor #magic-cursor {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-copyright-big-text {
-    font-size: 180px;
+    font-size: 239px;
     letter-spacing: -10px;
 
   }
