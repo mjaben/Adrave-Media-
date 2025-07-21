@@ -9548,7 +9548,7 @@ body.tp-magic-cursor #magic-cursor {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-copyright-big-text {
-    font-size: 239px;
+    font-size: 180px;
     letter-spacing: -10px;
 
   }
@@ -13772,7 +13772,11 @@ body.tp-magic-cursor #magic-cursor {
   position: absolute;
   top: 3px;
   right: 3px;
+  width:60px;
+  
 }
+
+
 @media (max-width: 767px) {
   .crp-hero-review-box {
     flex-wrap: wrap;
