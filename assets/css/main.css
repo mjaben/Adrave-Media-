@@ -9521,17 +9521,20 @@ body.tp-magic-cursor #magic-cursor {
   right: 0;
   top: 15px;
   animation: rotate2 5s linear infinite;
+  /* background-color: black; */
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-copyright-img {
     right: -10px;
     top: -15px;
+    /* background-color: black; */
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-copyright-img {
     right: -10px;
     top: -25px;
+    /* background-color: black; */
   }
 }
 .tp-copyright-big-text {
@@ -41612,6 +41615,8 @@ body.tp-magic-cursor #magic-cursor {
 .agntix-dark .tp-copyright-img {
   filter: invert(1);
   opacity: 0.4;
+  
+
 }
 .agntix-dark .ar-hero-title {
   color: var(--tp-common-white);
