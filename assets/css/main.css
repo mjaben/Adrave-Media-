@@ -44583,7 +44583,7 @@ body.tp-magic-cursor #magic-cursor {
 }
 .agntix-light .tp-footer-widget-menu ul li a {
   color: var(--tp-common-black);
-  background-color: var(--tp-common-white);
+  /* background-color: var(--tp-common-white); */
 }
 .agntix-light .tp-header-14-info a {
   color: var(--tp-common-black);
