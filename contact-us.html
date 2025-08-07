@@ -28,6 +28,8 @@
     <!-- CSS here -->
     <!-- CSS here -->
 
+
+
 </head>
 
 <body class="tp-magic-cursor">
@@ -473,27 +475,24 @@
                                             <div class="col-lg-6">
                                                 <div class="tp-contact-form-input mb-20">
                                                     <label>Full name*</label>
-                                                    <input name="name" type="text">
+                                                    <input name="name" type="text" required>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="tp-contact-form-input mb-20">
                                                     <label>Email address*</label>
-                                                    <input name="email" type="email">
+                                                    <input name="email" type="email" required>
                                                 </div>
                                             </div>
-                                            <!-- <div class="col-lg-12">
-                                                <div class="tp-contact-form-input mb-20">
-                                                    <label>Website link</label>
-                                                    <input name="subject" type="text">
-                                                </div>
-                                            </div> -->
                                             <div class="col-lg-12">
                                                 <div class="tp-contact-form-input mb-20">
-                                                    <label>How Can We Help You*
-                                                    </label>
-                                                    <textarea name="message"></textarea>
+                                                    <label>How Can We Help You*</label>
+                                                    <textarea name="message" required></textarea>
                                                 </div>
+                                    
+                                                <!-- Cloudflare Turnstile widget -->
+                                                <div class="cf-turnstile mb-20" data-sitekey="0x4AAAAAABpX3NFVjNiYTmg7QV8Jzn6z2PE"></div>
+                                    
                                                 <div class="tp-contact-form-btn">
                                                     <button class="w-100" type="submit">
                                                         <span>
@@ -506,6 +505,10 @@
                                             </div>
                                         </div>
                                     </form>
+                                    
+                                    <!-- Cloudflare Turnstile script -->
+                                    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -800,6 +803,8 @@
     <script type="module" src="assets/js/distortion-img.js"></script>
     <script type="module" src="assets/js/skew-slider/index.js"></script>
     <script type="module" src="assets/js/img-revel/index.js"></script>
+    <!-- Cloudflare Turnstile Script -->
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 
 
     <!-- JS here -->
