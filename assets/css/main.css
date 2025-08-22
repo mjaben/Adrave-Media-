@@ -2644,7 +2644,7 @@ input[type=color] {
   right: 0;
   bottom: 0;
   z-index: 1000;
-  background-color: white;
+  background-color: #87CEEB;
 }
 
 .preloader {
